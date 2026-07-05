@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Employee Management System</h1>
+
+    <div class="form-card">
+
+        <h2>Add New Employee</h2>
+
+        <input
+            type="number"
+            id="id"
+            placeholder="Employee ID">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Employee Name">
+
+        <input
+            type="number"
+            id="age"
+            placeholder="Age">
+
+        <input
+            type="text"
+            id="department"
+            placeholder="Department">
+
+        <input
+            type="text"
+            id="role"
+            placeholder="Role">
+
+        <div class="button-group">
+
+            <button onclick="saveEmployee()">
+                Save Employee
+            </button>
+
+            <button onclick="clearForm()" class="clear-btn">
+                Clear
+            </button>
+
+            <a href="index.html">
+                <button type="button" class="back-btn">
+                    Back
+                </button>
+            </a>
+
+        </div>
+
+        <div id="message"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
